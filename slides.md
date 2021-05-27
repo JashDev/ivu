@@ -18,6 +18,8 @@ info: |
 
 # Introducción a la vida universitaria
 
+Bendezu Morales Marco
+<br/>
 Huamaní Quiñones Noel Alexander
 <br/>
 Millan Marín Erick Ronaldiño
