@@ -49,8 +49,30 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 # ¿Qué hace un profesional de Ingeniería de Sistemas?
 
-- **Redes y telecomunicaciones** - Descripción de lo que se hace en la carrera
-- **Desarrollo de software** - Descripción de lo que se hace en la carrera
+<div v-click="1" >
+ <h3>Elaborar un código eficiente, bien diseñado</h3>
+</div>
+<div v-click="2">
+<h3>Administrar redes y sistemas de información</h3> 
+</div>
+<div v-click="3">
+<h3>Diseñar, programar, aplicar y mantener sistemas informáticos</h3>
+</div>
+<div v-click="4">
+<h3>Optimizar datos</h3>
+</div>
+<div v-click="5">
+<h3>Investigación y creación de software y hardware</h3>
+</div>
+
+<div style="width: 300px; margin: auto">
+<img v-if="$slidev.nav.clicks === 1" style="margin: auto; margin: 10px auto; border-radius: 20px" src="https://res.cloudinary.com/da1yarvtc/image/upload/v1622134504/Imagen1_xnypcn.jpg"/>
+<img v-if="$slidev.nav.clicks === 2" style="margin: auto; margin: 10px auto; border-radius: 20px" src="https://res.cloudinary.com/da1yarvtc/image/upload/v1622134505/Imagen2_sh9u4a.jpg"/>
+<img v-if="$slidev.nav.clicks === 3" style="margin: auto; margin: 10px auto; border-radius: 20px" src="https://res.cloudinary.com/da1yarvtc/image/upload/v1622134505/Imagen3_hy67gq.jpg"/>
+<img v-if="$slidev.nav.clicks === 4" style="margin: auto; margin: 10px auto; border-radius: 20px" src="https://res.cloudinary.com/da1yarvtc/image/upload/v1622134505/Imagen4_wts1wa.jpg"/>
+<img v-if="$slidev.nav.clicks === 5" style="margin: auto; margin: 10px auto; border-radius: 20px" src="https://res.cloudinary.com/da1yarvtc/image/upload/v1622134505/Imagen5_blxz3w.jpg"/>
+</div>
+
 
 <br>
 <br>
@@ -163,7 +185,22 @@ const final = {
 ---
 
 # ¿Por qué es importante la carrera para la sociedad?
+La ingeniería de sistemas es importante en la sociedad porque aporta una visión más amplia de situaciones específicas. Un ingeniero de sistemas es capaz de ver los problemas de distintos puntos de vista.
+1. Permite el desarrollo de tecnologías de información.
+2. Nos facilita muchos procesos gracias a la interconexión.
+3. Tiene aplicación en cualquier área.
 
-* Permite el desarrollo de tecnologías de información.
-* Nos facilita muchos procesos gracias a la interconexión.
-* Tiene aplicación en cualquier área.
+<ul>
+  <li v-click="1">
+    Educación
+  </li>
+<li v-click="2">
+    Negocios
+  </li>
+<li v-click="3">
+    Transacciones financieras
+  </li>
+<li v-click="4">
+    Entretenimiento
+  </li>
+</ul>
